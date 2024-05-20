@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MTG Cards - v3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cc2c61322b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div><h1><i class="fa-brands fa-wizards-of-the-coast"></i> MTG Cards</h1></div>
+        <div class="barras"><h1><i class="fa-solid fa-bars"></i></h1></div>
+        <div class="listado">
+            <div class="tipo">
+                <h3>Categorias</h3>
+            </div>
+            <div class="tipo">
+                <h3>Cartas</h3>
+            </div>
+            <div class="tipo">
+                <h3>Carpetas</h3>
+            </div>
+            <div class="tipo">
+                <h3>Dados</h3>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <p class="texto_filtro">Ordenar Por:</p>
+        <select class="opciones_filtro" name="select">
+          <option value="Precio">Precio</option>
+          <option value="Reputacion">Reputación</option>
+        </select>
+    </nav>
+    <main>
+        <div class="grid-container">
+            <article>
+                <img src="assets/img/Wasteland.jpg" alt="Wasteland" class="imagenes" />
+                <div>
+                    <h3>Wasteland</h3>
+                    <p>$1.000</p>
+                    <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                </div>
+            </article>
+            <article class="oculto">
+                <img src="assets/img/esper-sentinel.jpg" alt="Esper Sentinel" class="imagenes" />
+                <div>
+                    <h3>Esper Sentinel</h3>
+                    <p>$1.000</p>
+                    <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                </div>
+            </article>
+            <article class="oculto">
+                <img src="assets/img/Godzilla.jpg" alt="Godzilla" class="imagenes" />
+                <div>
+                    <h3>Godzilla</h3>
+                    <p>$1.000</p>
+                    <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                </div>
+            </article>
+            <article class="oculto">
+                <img src="assets/img/griselbrand.jpg" alt="griselbrand" class="imagenes" />
+                <div>
+                    <h3>Griselbrand</h3>
+                    <p>$1.000</p>
+                    <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                </div>
+            </article>
+            <article class="oculto">
+                <img src="assets/img/Urza-Planeswalker.jpg" alt="Urza Planeswalker" class="imagenes" />
+                <div>
+                    <h3>Urza Planeswalker</h3>
+                    <p>$1.000</p>
+                    <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                </div>
+            </article>
+        </div>
+        <div class="caja-paginacion">
+            <ul class="paginacion">
+              <li><a href="#"><i class="fa-solid fa-backward-step"></i></a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#"><i class="fa-solid fa-forward-step"></i></a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-square-instagram"></i></p>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
